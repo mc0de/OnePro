@@ -894,7 +894,7 @@
         },
         {
             "name": "PHP Nullable Return type color",
-            "scope": "meta.function.return-type.php storage.type.nullable.php",
+            "scope": "storage.type.nullable.php",
             "foreground": "var(purple)"
         },
         {
