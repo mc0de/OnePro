@@ -916,6 +916,11 @@
             "name": "control words php",
             "scope": "keyword.control.php",
             "foreground": "var(red)"
+        },
+        {
+            "name": "use declaration php",
+            "scope": "keyword.declaration.use",
+            "foreground": "var(red)"
         }
     ]
 }
