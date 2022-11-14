@@ -915,42 +915,42 @@
             "foreground": "var(purple)"
         },
         {
-            "name": "control words php",
+            "name": "PHP Control words",
             "scope": "keyword.control.php",
             "foreground": "var(red)"
         },
         {
-            "name": "use declaration php",
+            "name": "PHP Use declaration",
             "scope": "keyword.declaration.use",
             "foreground": "var(red)"
         },
         {
-            "name": "namespace declaration php",
+            "name": "PHP Namespace declaration",
             "scope": "keyword.declaration.namespace.php",
             "foreground": "var(red)"
         },
         {
-            "name": "namespace declaration php",
+            "name": "PHP Variable dollar ($) sign",
             "scope": "punctuation.definition.variable.php",
             "foreground": "var(gray-light)"
         },
         {
-            "name": "namespace declaration php",
+            "name": "PHP $this variable",
             "scope": "variable.language.this.php",
             "foreground": "var(gray-dark)"
         },
         {
-            "name": "namespace declaration php",
+            "name": "PHP class name constant",
             "scope": "variable.language.class",
             "foreground": "var(purple)"
         },
         {
-            "name": "namespace declaration php",
-            "scope": "entity.name.tag",
+            "name": "PHPDOC Tag",
+            "scope": "entity.name.tag.documentation.phpdoc.php",
             "foreground": "var(purple)"
         },
         {
-            "name": "namespace declaration php",
+            "name": "PHP Class constant",
             "scope": "constant.other.member.php",
             "foreground": "var(purple)"
         }
