@@ -926,6 +926,21 @@
             "name": "namespace declaration php",
             "scope": "keyword.declaration.namespace.php",
             "foreground": "var(red)"
+        },
+        {
+            "name": "namespace declaration php",
+            "scope": "variable.language.class",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "namespace declaration php",
+            "scope": "entity.name.tag",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "namespace declaration php",
+            "scope": "constant.other.member.php",
+            "foreground": "var(purple)"
         }
     ]
 }

@@ -4,14 +4,16 @@
     "uuid": "6756ae39-ea73-428f-99f6-cd0148114684",
     "colorSpaceName": "sRGB",
     "variables": {
-        "red": "#ef4444",
-        "orange": "#D97706",
-        "yellow": "#EAB308",
-        "green": "#16A34A",
+        "red": "#dc2626",
+        "orange": "#ea580c",
+        "yellow": "#ca8a04",
+        "green": "#16a34a",
         "blue": "#2563eb",
-        "purple": "#a855f7",
+        "purple": "#9333ea",
         "black": "#000000",
         "white": "#ffffff",
+        "gray-light": "#a1a1aa",
+        "gray-dark": "#71717a",
         "accent1": "#ef4444",
         "accent2": "#D97706",
         "accent3": "#EAB308",
@@ -33,7 +35,7 @@
         "selection_border_width": "1",
         "selection_corner_style": "round",
         "selection_corner_radius": "2",
-        "line_highlight": "#0000000c",
+        "line_highlight": "#0000000a",
         "bracket_contents_options": "underline",
         "tags_options": "stippled_underline",
         "gutter": "#F3F4F6",
@@ -926,6 +928,31 @@
             "name": "namespace declaration php",
             "scope": "keyword.declaration.namespace.php",
             "foreground": "var(red)"
+        },
+        {
+            "name": "namespace declaration php",
+            "scope": "punctuation.definition.variable.php",
+            "foreground": "var(gray-light)"
+        },
+        {
+            "name": "namespace declaration php",
+            "scope": "variable.language.this.php",
+            "foreground": "var(gray-dark)"
+        },
+        {
+            "name": "namespace declaration php",
+            "scope": "variable.language.class",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "namespace declaration php",
+            "scope": "entity.name.tag",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "namespace declaration php",
+            "scope": "constant.other.member.php",
+            "foreground": "var(purple)"
         }
     ]
 }
