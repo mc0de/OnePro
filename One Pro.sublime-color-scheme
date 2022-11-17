@@ -941,6 +941,11 @@
             "name": "PHP Class constant",
             "scope": "constant.other.member.php",
             "foreground": "var(purple)"
+        },
+        {
+            "name": "PHP Array arrow",
+            "scope": "punctuation.separator.key-value.php",
+            "foreground": "var(red)"
         }
     ]
 }
